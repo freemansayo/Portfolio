@@ -1,0 +1,82 @@
+/* Container for the About section */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #F5F1ED;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+  position: relative;
+  z-index: 1; /* Ensure the about section stays on top */
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  gap: 50px;
+  margin-bottom: 30px; /* Add space before the Projects section */
+}
+  /* Text styling */
+  .text {
+     flex: 1; /* Allow the text container to take up available space */
+  text-align: left; /* Align text to the left */
+  padding-right: 20px; /* Add spacing between the text and image */
+  max-width: 600px; /* Optional: Set a max width for the text */
+  }
+  
+  .title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .paragraph {
+    font-size: 24px;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  /* Image styling */
+  .imageContainer {
+    flex: 1; /* Make the image take up one part of the available space */
+    display: flex;
+    justify-content: flex-end; /* Push the image to the right */
+  }
+  
+  .image {
+    transform: rotate(90deg);
+    width: 100%;
+    max-width: 400px; /* Limit the image size */
+    border-radius: 10px; /* Add rounded corners to the image */
+    
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .aboutSection {
+      flex-direction: column; /* Stack the text and image vertically */
+      align-items: center;
+      padding: 50px 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .content {
+      flex-direction: column; /* Stack the text and image */
+      text-align: center; /* Center text and image on smaller screens */
+      gap: 30px;
+    }
+  
+    .image {
+      max-width: 300px; /* Reduce image size for smaller screens */
+    }
+  }
+  

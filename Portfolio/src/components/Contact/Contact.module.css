@@ -1,0 +1,43 @@
+/* Contact Section */
+.contactSection {
+  background-color: #F5F1ED;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Contact details side-by-side */
+.contactDetails {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: black; /* Ensure icons are black */
+}
+
+a {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}

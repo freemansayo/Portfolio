@@ -1,0 +1,52 @@
+/* Container for the whole skills section */
+.skillsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #F5F1ED;
+  margin-top: 150px; /* Increase margin-top to ensure it doesn't overlap */
+  margin-bottom: 100px;
+  width: 100%;
+  position: relative;
+  z-index: 1; /* Ensure skills section is properly stacked */
+}
+
+/* Title for the skills section */
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Container for all the skill icons */
+.skillsContainer {
+  display: flex;
+  justify-content: center; /* Center the icons */
+  align-items: center;
+  flex-wrap: wrap; /* Allow icons to wrap on smaller screens */
+  gap: 30px; /* Space between each skill icon */
+  padding-top: 50px; /* Add padding to ensure icons don't overlap */
+}
+
+/* Individual skill item */
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the icon and label */
+}
+
+/* Icon styling */
+.icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+/* Label for each icon */
+.label {
+  font-size: 16px;
+  color: #555;
+}

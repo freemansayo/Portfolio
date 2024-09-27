@@ -1,0 +1,27 @@
+[
+    {
+      "name": "HTML",
+      "icon": "assets/skills/html.png"
+    },
+    {
+      "name": "CSS",
+      "icon": "assets/skills/css.png"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "assets/skills/javascript.png"
+    },
+    {
+      "name": "React",
+      "icon": "assets/skills/c.png"
+    },
+    {
+        "name": "React",
+        "icon": "assets/skills/python.png"
+      },
+    {
+      "name": "Node.js",
+      "icon": "assets/skills/react.png"
+    }
+  ]
+  

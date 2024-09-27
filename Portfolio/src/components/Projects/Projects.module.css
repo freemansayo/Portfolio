@@ -1,0 +1,44 @@
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center; /* Center the title */
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 30px; /* Add space below the title */
+}
+
+/* Grid layout for project cards */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Maximum of 4 cards in a row */
+  gap: 20px; /* Space between cards */
+  width: 100%;
+  justify-items: center; /* Center cards horizontally */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards in a row on medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards in a row on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr; /* 1 card in a row on very small screens */
+  }
+}

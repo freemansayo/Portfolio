@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Excel in C",
+        "imageSrc": "assets/projects/Excel.png",
+        "description": "Implementing data structures and algorithms with C to store and manage the content of a spreadsheet similarly to how you would in Microsoft Excel",
+        "skills": ["C"],
+        "source": "https://github.com/FreemanSayoooo/ELEC278_Excel/blob/main/model.c"
+    },
+    {
+        "title": "Tile Matching",
+        "imageSrc": "assets/projects/Tile.png",
+        "description": "a simple puzzle game to find all matching pairs of coloured tiles on a randomized 4x4 grid",
+        "skills": ["HTML","CSS", "JS"],
+        "source": "https://github.com/FreemanSayoooo"
+    },
+    {
+        "title": "Dorm Security System",
+        "imageSrc": "assets/projects/dorm.png",
+        "description": "In hopes to reduce theft in residence a PIR sensor is used detect movement and notify the owner when triggered via a web app",
+        "skills": ["Arduino", "Arduino C"],
+        "source": "https://github.com/FreemanSayoooo"
+    }
+   
+
+
+
+]
