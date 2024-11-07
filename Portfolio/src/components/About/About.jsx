@@ -11,7 +11,7 @@ export const About = () => {
         <h2 className={styles.title}>About Me</h2>
         <p className={styles.paragraph}>
             I am a passionate computer engineering student from Queen's University with an interest in . I cofounded the first cryptography and cybersecurity club at my University. In my free time, I enjoy
-            powerlifting, cooking and.
+            powerlifting, cooking and baking.
           </p>
       </div>
         <div className={styles.imageContainer}>

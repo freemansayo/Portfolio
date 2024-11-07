@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Skills.module.css';
-import skillsData from '../../../../skills.json'; // Import the JSON file
+import skillsData from '../../../skills.json'; // Import the JSON file
 
 const Skills = () => {
   return (
